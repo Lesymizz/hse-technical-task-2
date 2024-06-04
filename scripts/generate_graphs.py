@@ -34,7 +34,7 @@ def plot_performance_graph(
     plt.plot(sizes, elapsed_times, marker="o", linestyle="-", color="b")
 
     plt.xlabel("Кол-во чисел")
-    plt.ylabel("Время выполнения")
+    plt.ylabel("Время выполнения, ms")
     plt.title(title)
 
     plt.gca().xaxis.set_major_formatter(ScalarFormatter())
